@@ -1,0 +1,1623 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-d' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No license field.
+7 verbose install where, deps [ '/home/ubuntu/workspace',
+7 verbose install   [ 'express', 'ejs', 'oracledb', 'express-generator' ] ]
+8 verbose install where, peers [ '/home/ubuntu/workspace', [] ]
+9 verbose installManyTop reading for lifecycle /home/ubuntu/workspace/package.json
+10 info preinstall @
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/ejs/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/express/package.json
+13 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+14 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/ejs/package.json
+15 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/express/package.json
+16 verbose already installed skipping express@* /home/ubuntu/workspace
+17 verbose already installed skipping ejs@* /home/ubuntu/workspace
+18 silly cache add args [ 'oracledb@*', null ]
+19 verbose cache add spec oracledb@*
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'oracledb@*',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'oracledb',
+20 silly cache add   rawSpec: '*',
+20 silly cache add   spec: '*',
+20 silly cache add   type: 'range' }
+21 silly addNamed oracledb@*
+22 verbose addNamed "*" is a valid semver range for oracledb
+23 silly addNameRange { name: 'oracledb', range: '*', hasData: false }
+24 silly mapToRegistry name oracledb
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'oracledb',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   name: 'oracledb',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+29 verbose addNameRange registry:https://registry.npmjs.org/oracledb not in flight; fetching
+30 silly cache add args [ 'express-generator@*', null ]
+31 verbose cache add spec express-generator@*
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'express-generator@*',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'express-generator',
+32 silly cache add   rawSpec: '*',
+32 silly cache add   spec: '*',
+32 silly cache add   type: 'range' }
+33 silly addNamed express-generator@*
+34 verbose addNamed "*" is a valid semver range for express-generator
+35 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+36 silly mapToRegistry name express-generator
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'express-generator',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   name: 'express-generator',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+41 verbose addNameRange registry:https://registry.npmjs.org/express-generator not in flight; fetching
+42 verbose request uri https://registry.npmjs.org/express-generator
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 5:37:39 AM
+45 verbose request id d60d709d2640c075
+46 http request GET https://registry.npmjs.org/express-generator
+47 verbose request uri https://registry.npmjs.org/oracledb
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 5:37:39 AM
+50 verbose etag "5VLY74B87AKHN57Y3KYPGMFD4"
+51 http request GET https://registry.npmjs.org/oracledb
+52 http 200 https://registry.npmjs.org/express-generator
+53 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 verbose headers   etag: '"13RZ3L9G7QKV57KWRLPWHC6BH"',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'content-encoding': 'gzip',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   'content-length': '4683',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Tue, 12 Jul 2016 05:37:39 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '94',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+53 verbose headers   'x-cache': 'HIT',
+53 verbose headers   'x-cache-hits': '1',
+53 verbose headers   'x-timer': 'S1468301859.673983,VS0,VE0',
+53 verbose headers   vary: 'Accept-Encoding' }
+54 silly get cb [ 200,
+54 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly get     etag: '"13RZ3L9G7QKV57KWRLPWHC6BH"',
+54 silly get     'content-type': 'application/json',
+54 silly get     'content-encoding': 'gzip',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     'content-length': '4683',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Tue, 12 Jul 2016 05:37:39 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '94',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-hkg6820-HKG',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '1',
+54 silly get     'x-timer': 'S1468301859.673983,VS0,VE0',
+54 silly get     vary: 'Accept-Encoding' } ]
+55 verbose get saving express-generator to /home/ubuntu/.npm/registry.npmjs.org/express-generator/.cache.json
+56 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+57 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+58 silly addNameRange versions [ 'express-generator',
+58 silly addNameRange   [ '1.0.0',
+58 silly addNameRange     '3.0.0',
+58 silly addNameRange     '4.0.0',
+58 silly addNameRange     '4.2.0',
+58 silly addNameRange     '4.8.0',
+58 silly addNameRange     '4.9.0',
+58 silly addNameRange     '4.10.0',
+58 silly addNameRange     '4.11.0',
+58 silly addNameRange     '4.11.1',
+58 silly addNameRange     '4.11.2',
+58 silly addNameRange     '4.12.0',
+58 silly addNameRange     '4.12.1',
+58 silly addNameRange     '4.12.4',
+58 silly addNameRange     '4.13.0',
+58 silly addNameRange     '4.13.1',
+58 silly addNameRange     '4.13.4' ] ]
+59 silly addNamed express-generator@4.13.4
+60 verbose addNamed "4.13.4" is a plain semver version for express-generator
+61 silly mapToRegistry name express-generator
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'express-generator',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   name: 'express-generator',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+66 verbose addRemoteTarball https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz not in flight; adding
+67 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz',
+67 verbose addRemoteTarball   '3abec2e5e7b548820075024954ff7fa6a447e5eb' ]
+68 info retry fetch attempt 1 at 5:37:39 AM
+69 info attempt registry request try #1 at 5:37:39 AM
+70 http fetch GET https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz
+71 http fetch 200 https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz
+72 silly fetchAndShaCheck shasum 3abec2e5e7b548820075024954ff7fa6a447e5eb
+73 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz not in flight; adding
+74 verbose addTmpTarball already have metadata; skipping unpack for express-generator@4.13.4
+75 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+76 silly cache afterAdd express-generator@4.13.4
+77 verbose afterAdd /home/ubuntu/.npm/express-generator/4.13.4/package/package.json not in flight; writing
+78 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+79 verbose afterAdd /home/ubuntu/.npm/express-generator/4.13.4/package/package.json written
+80 http 304 https://registry.npmjs.org/oracledb
+81 verbose headers { date: 'Tue, 12 Jul 2016 05:37:39 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   'cache-control': 'max-age=300',
+81 verbose headers   etag: '"5VLY74B87AKHN57Y3KYPGMFD4"',
+81 verbose headers   age: '0',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+81 verbose headers   'x-cache': 'MISS',
+81 verbose headers   'x-cache-hits': '0',
+81 verbose headers   'x-timer': 'S1468301859.674772,VS0,VE202',
+81 verbose headers   vary: 'Accept-Encoding' }
+82 silly get cb [ 304,
+82 silly get   { date: 'Tue, 12 Jul 2016 05:37:39 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     etag: '"5VLY74B87AKHN57Y3KYPGMFD4"',
+82 silly get     age: '0',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-hkg6820-HKG',
+82 silly get     'x-cache': 'MISS',
+82 silly get     'x-cache-hits': '0',
+82 silly get     'x-timer': 'S1468301859.674772,VS0,VE202',
+82 silly get     vary: 'Accept-Encoding' } ]
+83 verbose etag https://registry.npmjs.org/oracledb from cache
+84 verbose get saving oracledb to /home/ubuntu/.npm/registry.npmjs.org/oracledb/.cache.json
+85 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+86 silly addNameRange number 2 { name: 'oracledb', range: '*', hasData: true }
+87 silly addNameRange versions [ 'oracledb',
+87 silly addNameRange   [ '0.2.4',
+87 silly addNameRange     '0.6.0',
+87 silly addNameRange     '0.7.0',
+87 silly addNameRange     '1.0.0',
+87 silly addNameRange     '1.1.0',
+87 silly addNameRange     '1.4.0',
+87 silly addNameRange     '1.5.0',
+87 silly addNameRange     '1.6.0',
+87 silly addNameRange     '1.7.0',
+87 silly addNameRange     '1.7.1',
+87 silly addNameRange     '1.8.0',
+87 silly addNameRange     '1.9.1',
+87 silly addNameRange     '1.9.2',
+87 silly addNameRange     '1.9.3',
+87 silly addNameRange     '1.10.0' ] ]
+88 silly addNamed oracledb@1.10.0
+89 verbose addNamed "1.10.0" is a plain semver version for oracledb
+90 silly cache afterAdd oracledb@1.10.0
+91 verbose afterAdd /home/ubuntu/.npm/oracledb/1.10.0/package/package.json not in flight; writing
+92 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+93 verbose afterAdd /home/ubuntu/.npm/oracledb/1.10.0/package/package.json written
+94 silly install resolved [ { name: 'express-generator',
+94 silly install resolved     description: 'Express\' application generator',
+94 silly install resolved     version: '4.13.4',
+94 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+94 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+94 silly install resolved     keywords:
+94 silly install resolved      [ 'express',
+94 silly install resolved        'framework',
+94 silly install resolved        'sinatra',
+94 silly install resolved        'web',
+94 silly install resolved        'rest',
+94 silly install resolved        'restful',
+94 silly install resolved        'router',
+94 silly install resolved        'app',
+94 silly install resolved        'api' ],
+94 silly install resolved     repository: { type: 'git', url: 'https://github.com/expressjs/generator' },
+94 silly install resolved     license: 'MIT',
+94 silly install resolved     dependencies: { commander: '2.7.1', mkdirp: '0.5.1', 'sorted-object': '2.0.0' },
+94 silly install resolved     main: 'bin/express',
+94 silly install resolved     preferGlobal: true,
+94 silly install resolved     bin: { express: './bin/express' },
+94 silly install resolved     devDependencies: { mocha: '2.4.5', rimraf: '2.5.2', supertest: '1.2.0' },
+94 silly install resolved     engines: { node: '>= 0.10' },
+94 silly install resolved     files: [ 'LICENSE', 'bin/', 'templates/' ],
+94 silly install resolved     scripts:
+94 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+94 silly install resolved        'test-ci': 'mocha --reporter spec --check-leaks test/' },
+94 silly install resolved     gitHead: 'f7b1543a297425f541f0b18c3312105c403a660f',
+94 silly install resolved     bugs: { url: 'https://github.com/expressjs/generator/issues' },
+94 silly install resolved     homepage: 'https://github.com/expressjs/generator',
+94 silly install resolved     _id: 'express-generator@4.13.4',
+94 silly install resolved     _shasum: '3abec2e5e7b548820075024954ff7fa6a447e5eb',
+94 silly install resolved     _from: 'express-generator@*',
+94 silly install resolved     _npmVersion: '1.4.28',
+94 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+94 silly install resolved     maintainers: [ [Object] ],
+94 silly install resolved     dist:
+94 silly install resolved      { shasum: '3abec2e5e7b548820075024954ff7fa6a447e5eb',
+94 silly install resolved        tarball: 'https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz' },
+94 silly install resolved     _npmOperationalInternal:
+94 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+94 silly install resolved        tmp: 'tmp/express-generator-4.13.4.tgz_1466223574112_0.6206904440186918' },
+94 silly install resolved     directories: {},
+94 silly install resolved     _resolved: 'https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz' },
+94 silly install resolved   { name: 'oracledb',
+94 silly install resolved     version: '1.10.0',
+94 silly install resolved     description: 'Oracle Database driver by Oracle Corp.',
+94 silly install resolved     license: 'Apache-2.0',
+94 silly install resolved     homepage: 'http://www.oracle.com/technetwork/database/database-technologies/scripting-languages/node_js/',
+94 silly install resolved     keywords:
+94 silly install resolved      [ 'oracledb',
+94 silly install resolved        'dboracle',
+94 silly install resolved        'Node.js',
+94 silly install resolved        'SQL',
+94 silly install resolved        'PL/SQL',
+94 silly install resolved        'connection',
+94 silly install resolved        'connectivity',
+94 silly install resolved        'OCI',
+94 silly install resolved        'client',
+94 silly install resolved        'plugin',
+94 silly install resolved        'library',
+94 silly install resolved        'driver',
+94 silly install resolved        'add-on',
+94 silly install resolved        'extension',
+94 silly install resolved        'binding',
+94 silly install resolved        'interface',
+94 silly install resolved        'adapter',
+94 silly install resolved        'module',
+94 silly install resolved        'DB',
+94 silly install resolved        'official',
+94 silly install resolved        'Database',
+94 silly install resolved        'Oracle' ],
+94 silly install resolved     repository:
+94 silly install resolved      { type: 'git',
+94 silly install resolved        url: 'git://github.com/oracle/node-oracledb.git' },
+94 silly install resolved     dependencies: { nan: '~2.3.0' },
+94 silly install resolved     devDependencies: { mocha: '^2.4.5', should: '^8.3.1', async: '^1.5.0' },
+94 silly install resolved     scripts:
+94 silly install resolved      { test: 'mocha -R spec --timeout 100000 test/*.js',
+94 silly install resolved        testWindows: 'mocha -R spec --timeout 0 test\\*.js',
+94 silly install resolved        install: 'node-gyp rebuild' },
+94 silly install resolved     engines: { node: '>=0.10.28 <7' },
+94 silly install resolved     maintainers: [ [Object], [Object] ],
+94 silly install resolved     bugs: { url: 'https://github.com/oracle/node-oracledb/issues' },
+94 silly install resolved     main: './index.js',
+94 silly install resolved     gypfile: true,
+94 silly install resolved     _id: 'oracledb@1.10.0',
+94 silly install resolved     _shasum: '7282cc0751184eff2c9fa500de2e1bd51db34700',
+94 silly install resolved     _resolved: 'https://registry.npmjs.org/oracledb/-/oracledb-1.10.0.tgz',
+94 silly install resolved     _from: 'oracledb@*',
+94 silly install resolved     _npmVersion: '3.10.3',
+94 silly install resolved     _nodeVersion: '6.3.0',
+94 silly install resolved     _npmUser: { name: 'cjbj', email: 'christopher.jones@oracle.com' },
+94 silly install resolved     dist:
+94 silly install resolved      { shasum: '7282cc0751184eff2c9fa500de2e1bd51db34700',
+94 silly install resolved        tarball: 'https://registry.npmjs.org/oracledb/-/oracledb-1.10.0.tgz' },
+94 silly install resolved     _npmOperationalInternal:
+94 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+94 silly install resolved        tmp: 'tmp/oracledb-1.10.0.tgz_1467965102242_0.7083388664759696' },
+94 silly install resolved     directories: {},
+94 silly install resolved     readme: 'ERROR: No README data found!' } ]
+95 info install express-generator@4.13.4 into /home/ubuntu/workspace
+96 info install oracledb@1.10.0 into /home/ubuntu/workspace
+97 info installOne express-generator@4.13.4
+98 verbose installOne of express-generator to /home/ubuntu/workspace not in flight; installing
+99 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+100 info installOne oracledb@1.10.0
+101 verbose installOne of oracledb to /home/ubuntu/workspace not in flight; installing
+102 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir already in flight; waiting
+103 verbose lock using /home/ubuntu/.npm/_locks/express-generator-f069907810ebfb97.lock for /home/ubuntu/workspace/node_modules/express-generator
+104 verbose lock using /home/ubuntu/.npm/_locks/oracledb-17bdb8b23a6f6f51.lock for /home/ubuntu/workspace/node_modules/oracledb
+105 silly install write writing express-generator 4.13.4 to /home/ubuntu/workspace/node_modules/express-generator
+106 silly install write writing oracledb 1.10.0 to /home/ubuntu/workspace/node_modules/oracledb
+107 verbose unbuild node_modules/oracledb
+108 verbose unbuild node_modules/express-generator
+109 silly gentlyRm /home/ubuntu/workspace/node_modules/oracledb is being purged from base /home/ubuntu/workspace
+110 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/oracledb
+111 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator is being purged from base /home/ubuntu/workspace
+112 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator
+113 verbose tar unpack /home/ubuntu/.npm/oracledb/1.10.0/package.tgz
+114 verbose tar unpacking to /home/ubuntu/workspace/node_modules/oracledb
+115 silly gentlyRm /home/ubuntu/workspace/node_modules/oracledb is being purged
+116 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/oracledb
+117 verbose tar unpack /home/ubuntu/.npm/express-generator/4.13.4/package.tgz
+118 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator
+119 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator is being purged
+120 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm modes [ '755', '644' ]
+123 silly gunzTarPerm extractEntry package.json
+124 silly gunzTarPerm extractEntry package.json
+125 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+126 silly gunzTarPerm extractEntry README.md
+127 silly gunzTarPerm extractEntry index.js
+128 silly gunzTarPerm extractEntry README.md
+129 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+130 silly gunzTarPerm extractEntry LICENSE
+131 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+132 silly gunzTarPerm extractEntry .github/issue_template.md
+133 silly gunzTarPerm extractEntry .github/pull_request_template.md
+134 silly gunzTarPerm extractEntry bin/express
+135 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+136 silly gunzTarPerm extractEntry templates/css/style.css
+137 silly gunzTarPerm modified mode [ 'templates/css/style.css', 438, 420 ]
+138 silly gunzTarPerm extractEntry templates/css/style.less
+139 silly gunzTarPerm modified mode [ 'templates/css/style.less', 438, 420 ]
+140 silly gunzTarPerm extractEntry templates/css/style.sass
+141 silly gunzTarPerm modified mode [ 'templates/css/style.sass', 438, 420 ]
+142 silly gunzTarPerm extractEntry templates/css/style.scss
+143 silly gunzTarPerm modified mode [ 'templates/css/style.scss', 438, 420 ]
+144 silly gunzTarPerm extractEntry templates/css/style.styl
+145 silly gunzTarPerm modified mode [ 'templates/css/style.styl', 438, 420 ]
+146 silly gunzTarPerm extractEntry templates/ejs/error.ejs
+147 silly gunzTarPerm modified mode [ 'templates/ejs/error.ejs', 438, 420 ]
+148 silly gunzTarPerm extractEntry templates/ejs/index.ejs
+149 silly gunzTarPerm modified mode [ 'templates/ejs/index.ejs', 438, 420 ]
+150 silly gunzTarPerm extractEntry templates/hbs/error.hbs
+151 silly gunzTarPerm modified mode [ 'templates/hbs/error.hbs', 438, 420 ]
+152 silly gunzTarPerm extractEntry templates/hbs/index.hbs
+153 silly gunzTarPerm modified mode [ 'templates/hbs/index.hbs', 438, 420 ]
+154 silly gunzTarPerm extractEntry templates/hbs/layout.hbs
+155 silly gunzTarPerm modified mode [ 'templates/hbs/layout.hbs', 438, 420 ]
+156 silly gunzTarPerm extractEntry templates/hogan/error.hjs
+157 silly gunzTarPerm modified mode [ 'templates/hogan/error.hjs', 438, 420 ]
+158 silly gunzTarPerm extractEntry templates/hogan/index.hjs
+159 silly gunzTarPerm modified mode [ 'templates/hogan/index.hjs', 438, 420 ]
+160 silly gunzTarPerm extractEntry templates/jade/error.jade
+161 silly gunzTarPerm modified mode [ 'templates/jade/error.jade', 438, 420 ]
+162 silly gunzTarPerm extractEntry templates/jade/index.jade
+163 silly gunzTarPerm modified mode [ 'templates/jade/index.jade', 438, 420 ]
+164 silly gunzTarPerm extractEntry templates/jade/layout.jade
+165 silly gunzTarPerm modified mode [ 'templates/jade/layout.jade', 438, 420 ]
+166 silly gunzTarPerm extractEntry templates/js/app.js
+167 silly gunzTarPerm modified mode [ 'templates/js/app.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry templates/js/gitignore
+169 silly gunzTarPerm modified mode [ 'templates/js/gitignore', 438, 420 ]
+170 silly gunzTarPerm extractEntry templates/js/routes/index.js
+171 silly gunzTarPerm modified mode [ 'templates/js/routes/index.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry templates/js/routes/users.js
+173 silly gunzTarPerm modified mode [ 'templates/js/routes/users.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry templates/js/www
+175 silly gunzTarPerm modified mode [ 'templates/js/www', 438, 420 ]
+176 silly gunzTarPerm extractEntry CHANGELOG.md
+177 silly gunzTarPerm extractEntry LICENSE.md
+178 silly gunzTarPerm extractEntry binding.gyp
+179 silly gunzTarPerm extractEntry lib/connection.js
+180 silly gunzTarPerm extractEntry lib/lob.js
+181 silly gunzTarPerm extractEntry lib/oracledb.js
+182 silly gunzTarPerm extractEntry lib/pool.js
+183 silly gunzTarPerm extractEntry lib/querystream.js
+184 silly gunzTarPerm extractEntry lib/resultset.js
+185 silly gunzTarPerm extractEntry lib/util.js
+186 silly gunzTarPerm extractEntry src/dpi/include/dpi.h
+187 silly gunzTarPerm extractEntry src/dpi/include/dpiCommon.h
+188 silly gunzTarPerm extractEntry src/dpi/include/dpiConn.h
+189 silly gunzTarPerm extractEntry src/dpi/include/dpiDateTimeArray.h
+190 silly gunzTarPerm extractEntry src/dpi/include/dpiEnv.h
+191 silly gunzTarPerm extractEntry src/dpi/include/dpiException.h
+192 silly gunzTarPerm extractEntry src/dpi/include/dpiLob.h
+193 silly gunzTarPerm extractEntry src/dpi/include/dpiPool.h
+194 silly gunzTarPerm extractEntry src/dpi/include/dpiStmt.h
+195 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.cpp
+196 silly gunzTarPerm extractEntry src/dpi/src/dpiCommon.cpp
+197 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.h
+198 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.cpp
+199 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.h
+200 silly gunzTarPerm extractEntry src/dpi/src/dpiEnv.cpp
+201 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.cpp
+202 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.h
+203 silly gunzTarPerm extractEntry src/dpi/src/dpiException.cpp
+204 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.cpp
+205 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.h
+206 silly gunzTarPerm extractEntry src/dpi/src/dpiLob.cpp
+207 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.cpp
+208 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.h
+209 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.cpp
+210 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.h
+211 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.cpp
+212 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.h
+213 silly gunzTarPerm extractEntry src/njs/src/njsOracle.cpp
+214 silly gunzTarPerm extractEntry src/njs/src/njsConnection.cpp
+215 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.cpp
+216 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.h
+217 silly gunzTarPerm extractEntry src/njs/src/njsMessages.cpp
+218 silly gunzTarPerm extractEntry src/njs/src/njsMessages.h
+219 silly gunzTarPerm extractEntry src/njs/src/njsConnection.h
+220 silly gunzTarPerm extractEntry src/njs/src/njsOracle.h
+221 silly gunzTarPerm extractEntry src/njs/src/njsPool.cpp
+222 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/package.json
+223 info preinstall express-generator@4.13.4
+224 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/package.json
+225 silly gunzTarPerm extractEntry src/njs/src/njsPool.h
+226 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.cpp
+227 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.h
+228 silly gunzTarPerm extractEntry src/njs/src/njsUtils.h
+229 silly prepareForInstallMany adding commander@2.7.1 from express-generator dependencies
+230 silly prepareForInstallMany adding mkdirp@0.5.1 from express-generator dependencies
+231 silly prepareForInstallMany adding sorted-object@2.0.0 from express-generator dependencies
+232 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/package.json
+233 silly cache add args [ 'commander@2.7.1', null ]
+234 verbose cache add spec commander@2.7.1
+235 silly cache add args [ 'mkdirp@0.5.1', null ]
+236 verbose cache add spec mkdirp@0.5.1
+237 silly cache add parsed spec Result {
+237 silly cache add   raw: 'commander@2.7.1',
+237 silly cache add   scope: null,
+237 silly cache add   name: 'commander',
+237 silly cache add   rawSpec: '2.7.1',
+237 silly cache add   spec: '2.7.1',
+237 silly cache add   type: 'version' }
+238 silly addNamed commander@2.7.1
+239 verbose addNamed "2.7.1" is a plain semver version for commander
+240 silly mapToRegistry name commander
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry data Result {
+243 silly mapToRegistry   raw: 'commander',
+243 silly mapToRegistry   scope: null,
+243 silly mapToRegistry   name: 'commander',
+243 silly mapToRegistry   rawSpec: '',
+243 silly mapToRegistry   spec: 'latest',
+243 silly mapToRegistry   type: 'tag' }
+244 silly mapToRegistry uri https://registry.npmjs.org/commander
+245 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'mkdirp@0.5.1',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'mkdirp',
+246 silly cache add   rawSpec: '0.5.1',
+246 silly cache add   spec: '0.5.1',
+246 silly cache add   type: 'version' }
+247 silly addNamed mkdirp@0.5.1
+248 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+249 silly mapToRegistry name mkdirp
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'mkdirp',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   name: 'mkdirp',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+254 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+255 silly cache add args [ 'sorted-object@2.0.0', null ]
+256 verbose cache add spec sorted-object@2.0.0
+257 silly cache add parsed spec Result {
+257 silly cache add   raw: 'sorted-object@2.0.0',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'sorted-object',
+257 silly cache add   rawSpec: '2.0.0',
+257 silly cache add   spec: '2.0.0',
+257 silly cache add   type: 'version' }
+258 silly addNamed sorted-object@2.0.0
+259 verbose addNamed "2.0.0" is a plain semver version for sorted-object
+260 silly mapToRegistry name sorted-object
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'sorted-object',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   name: 'sorted-object',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag' }
+264 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+265 verbose addNameVersion registry:https://registry.npmjs.org/sorted-object not in flight; fetching
+266 verbose request uri https://registry.npmjs.org/sorted-object
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 5:37:40 AM
+269 http request GET https://registry.npmjs.org/sorted-object
+270 verbose request uri https://registry.npmjs.org/mkdirp
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 5:37:40 AM
+273 verbose etag "CVN414WULFYEIMA412CQ7KULR"
+274 http request GET https://registry.npmjs.org/mkdirp
+275 verbose request uri https://registry.npmjs.org/commander
+276 verbose request no auth needed
+277 info attempt registry request try #1 at 5:37:40 AM
+278 verbose etag "CUZ3AWFNO4F7TC4PD93WOFA3T"
+279 http request GET https://registry.npmjs.org/commander
+280 http 200 https://registry.npmjs.org/sorted-object
+281 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+281 verbose headers   etag: '"CRZ79N3CN8P8NK1PR2952VH73"',
+281 verbose headers   'content-type': 'application/json',
+281 verbose headers   'content-encoding': 'gzip',
+281 verbose headers   'cache-control': 'max-age=300',
+281 verbose headers   'content-length': '1535',
+281 verbose headers   'accept-ranges': 'bytes',
+281 verbose headers   date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+281 verbose headers   via: '1.1 varnish',
+281 verbose headers   age: '59',
+281 verbose headers   connection: 'keep-alive',
+281 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+281 verbose headers   'x-cache': 'HIT',
+281 verbose headers   'x-cache-hits': '1',
+281 verbose headers   'x-timer': 'S1468301860.120549,VS0,VE0',
+281 verbose headers   vary: 'Accept-Encoding' }
+282 silly get cb [ 200,
+282 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+282 silly get     etag: '"CRZ79N3CN8P8NK1PR2952VH73"',
+282 silly get     'content-type': 'application/json',
+282 silly get     'content-encoding': 'gzip',
+282 silly get     'cache-control': 'max-age=300',
+282 silly get     'content-length': '1535',
+282 silly get     'accept-ranges': 'bytes',
+282 silly get     date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+282 silly get     via: '1.1 varnish',
+282 silly get     age: '59',
+282 silly get     connection: 'keep-alive',
+282 silly get     'x-served-by': 'cache-hkg6820-HKG',
+282 silly get     'x-cache': 'HIT',
+282 silly get     'x-cache-hits': '1',
+282 silly get     'x-timer': 'S1468301860.120549,VS0,VE0',
+282 silly get     vary: 'Accept-Encoding' } ]
+283 verbose get saving sorted-object to /home/ubuntu/.npm/registry.npmjs.org/sorted-object/.cache.json
+284 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+285 http 200 https://registry.npmjs.org/mkdirp
+286 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+286 verbose headers   etag: '"6LGE9NMXN1RYRI88KYSZ2F48I"',
+286 verbose headers   'content-type': 'application/json',
+286 verbose headers   'content-encoding': 'gzip',
+286 verbose headers   'cache-control': 'max-age=300',
+286 verbose headers   'content-length': '4848',
+286 verbose headers   'accept-ranges': 'bytes',
+286 verbose headers   date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+286 verbose headers   via: '1.1 varnish',
+286 verbose headers   age: '101',
+286 verbose headers   connection: 'keep-alive',
+286 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+286 verbose headers   'x-cache': 'HIT',
+286 verbose headers   'x-cache-hits': '6',
+286 verbose headers   'x-timer': 'S1468301860.127132,VS0,VE0',
+286 verbose headers   vary: 'Accept-Encoding' }
+287 silly get cb [ 200,
+287 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+287 silly get     etag: '"6LGE9NMXN1RYRI88KYSZ2F48I"',
+287 silly get     'content-type': 'application/json',
+287 silly get     'content-encoding': 'gzip',
+287 silly get     'cache-control': 'max-age=300',
+287 silly get     'content-length': '4848',
+287 silly get     'accept-ranges': 'bytes',
+287 silly get     date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+287 silly get     via: '1.1 varnish',
+287 silly get     age: '101',
+287 silly get     connection: 'keep-alive',
+287 silly get     'x-served-by': 'cache-hkg6820-HKG',
+287 silly get     'x-cache': 'HIT',
+287 silly get     'x-cache-hits': '6',
+287 silly get     'x-timer': 'S1468301860.127132,VS0,VE0',
+287 silly get     vary: 'Accept-Encoding' } ]
+288 verbose get saving mkdirp to /home/ubuntu/.npm/registry.npmjs.org/mkdirp/.cache.json
+289 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+290 silly mapToRegistry name sorted-object
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'sorted-object',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   name: 'sorted-object',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+295 verbose addRemoteTarball https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz not in flight; adding
+296 verbose addRemoteTarball [ 'https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz',
+296 verbose addRemoteTarball   '1cfea981609047d8043807a490a9d99b317faf7f' ]
+297 info retry fetch attempt 1 at 5:37:40 AM
+298 info attempt registry request try #1 at 5:37:40 AM
+299 http fetch GET https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz
+300 silly mapToRegistry name mkdirp
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry data Result {
+303 silly mapToRegistry   raw: 'mkdirp',
+303 silly mapToRegistry   scope: null,
+303 silly mapToRegistry   name: 'mkdirp',
+303 silly mapToRegistry   rawSpec: '',
+303 silly mapToRegistry   spec: 'latest',
+303 silly mapToRegistry   type: 'tag' }
+304 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+305 verbose addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz not in flight; adding
+306 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+306 verbose addRemoteTarball   '30057438eac6cf7f8c4767f38648d6697d75c903' ]
+307 info retry fetch attempt 1 at 5:37:40 AM
+308 info attempt registry request try #1 at 5:37:40 AM
+309 http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+310 http fetch 200 https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz
+311 silly fetchAndShaCheck shasum 1cfea981609047d8043807a490a9d99b317faf7f
+312 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz not in flight; adding
+313 verbose addTmpTarball already have metadata; skipping unpack for sorted-object@2.0.0
+314 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+315 http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+316 http 200 https://registry.npmjs.org/commander
+317 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+317 verbose headers   etag: '"4X5B13G52THCI84GAML559C0S"',
+317 verbose headers   'content-type': 'application/json',
+317 verbose headers   'content-encoding': 'gzip',
+317 verbose headers   'cache-control': 'max-age=300',
+317 verbose headers   'content-length': '12924',
+317 verbose headers   'accept-ranges': 'bytes',
+317 verbose headers   date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+317 verbose headers   via: '1.1 varnish',
+317 verbose headers   age: '100',
+317 verbose headers   connection: 'keep-alive',
+317 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+317 verbose headers   'x-cache': 'HIT',
+317 verbose headers   'x-cache-hits': '5',
+317 verbose headers   'x-timer': 'S1468301860.167594,VS0,VE0',
+317 verbose headers   vary: 'Accept-Encoding' }
+318 silly get cb [ 200,
+318 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+318 silly get     etag: '"4X5B13G52THCI84GAML559C0S"',
+318 silly get     'content-type': 'application/json',
+318 silly get     'content-encoding': 'gzip',
+318 silly get     'cache-control': 'max-age=300',
+318 silly get     'content-length': '12924',
+318 silly get     'accept-ranges': 'bytes',
+318 silly get     date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+318 silly get     via: '1.1 varnish',
+318 silly get     age: '100',
+318 silly get     connection: 'keep-alive',
+318 silly get     'x-served-by': 'cache-hkg6825-HKG',
+318 silly get     'x-cache': 'HIT',
+318 silly get     'x-cache-hits': '5',
+318 silly get     'x-timer': 'S1468301860.167594,VS0,VE0',
+318 silly get     vary: 'Accept-Encoding' } ]
+319 verbose get saving commander to /home/ubuntu/.npm/registry.npmjs.org/commander/.cache.json
+320 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+321 silly fetchAndShaCheck shasum 30057438eac6cf7f8c4767f38648d6697d75c903
+322 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz not in flight; adding
+323 verbose addTmpTarball already have metadata; skipping unpack for mkdirp@0.5.1
+324 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+325 silly mapToRegistry name commander
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry data Result {
+328 silly mapToRegistry   raw: 'commander',
+328 silly mapToRegistry   scope: null,
+328 silly mapToRegistry   name: 'commander',
+328 silly mapToRegistry   rawSpec: '',
+328 silly mapToRegistry   spec: 'latest',
+328 silly mapToRegistry   type: 'tag' }
+329 silly mapToRegistry uri https://registry.npmjs.org/commander
+330 verbose addRemoteTarball https://registry.npmjs.org/commander/-/commander-2.7.1.tgz not in flight; adding
+331 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.7.1.tgz',
+331 verbose addRemoteTarball   '5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a' ]
+332 silly cache afterAdd sorted-object@2.0.0
+333 verbose afterAdd /home/ubuntu/.npm/sorted-object/2.0.0/package/package.json not in flight; writing
+334 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+335 info retry fetch attempt 1 at 5:37:40 AM
+336 info attempt registry request try #1 at 5:37:40 AM
+337 http fetch GET https://registry.npmjs.org/commander/-/commander-2.7.1.tgz
+338 verbose afterAdd /home/ubuntu/.npm/sorted-object/2.0.0/package/package.json written
+339 silly cache afterAdd mkdirp@0.5.1
+340 verbose afterAdd /home/ubuntu/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+341 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+342 verbose afterAdd /home/ubuntu/.npm/mkdirp/0.5.1/package/package.json written
+343 http fetch 200 https://registry.npmjs.org/commander/-/commander-2.7.1.tgz
+344 silly fetchAndShaCheck shasum 5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a
+345 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/commander/-/commander-2.7.1.tgz not in flight; adding
+346 verbose addTmpTarball already have metadata; skipping unpack for commander@2.7.1
+347 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+348 silly cache afterAdd commander@2.7.1
+349 verbose afterAdd /home/ubuntu/.npm/commander/2.7.1/package/package.json not in flight; writing
+350 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+351 verbose afterAdd /home/ubuntu/.npm/commander/2.7.1/package/package.json written
+352 silly install resolved [ { name: 'sorted-object',
+352 silly install resolved     description: 'Returns a copy of an object with its keys sorted',
+352 silly install resolved     keywords: [ 'sort', 'keys', 'object' ],
+352 silly install resolved     version: '2.0.0',
+352 silly install resolved     author:
+352 silly install resolved      { name: 'Domenic Denicola',
+352 silly install resolved        email: 'd@domenic.me',
+352 silly install resolved        url: 'https://domenic.me/' },
+352 silly install resolved     license: 'WTFPL',
+352 silly install resolved     repository:
+352 silly install resolved      { type: 'git',
+352 silly install resolved        url: 'git+https://github.com/domenic/sorted-object.git' },
+352 silly install resolved     main: 'lib/sorted-object.js',
+352 silly install resolved     files: [ 'lib/' ],
+352 silly install resolved     scripts: { test: 'tape test/tests.js', lint: 'eslint .' },
+352 silly install resolved     devDependencies: { eslint: '^2.4.0', tape: '^4.5.1' },
+352 silly install resolved     gitHead: '3cbdde212c8ceef219fbb8fa7805bfc38b94aa90',
+352 silly install resolved     bugs: { url: 'https://github.com/domenic/sorted-object/issues' },
+352 silly install resolved     homepage: 'https://github.com/domenic/sorted-object#readme',
+352 silly install resolved     _id: 'sorted-object@2.0.0',
+352 silly install resolved     _shasum: '1cfea981609047d8043807a490a9d99b317faf7f',
+352 silly install resolved     _from: 'sorted-object@2.0.0',
+352 silly install resolved     _npmVersion: '3.6.0',
+352 silly install resolved     _nodeVersion: '5.7.1',
+352 silly install resolved     _npmUser: { name: 'domenic', email: 'd@domenic.me' },
+352 silly install resolved     dist:
+352 silly install resolved      { shasum: '1cfea981609047d8043807a490a9d99b317faf7f',
+352 silly install resolved        tarball: 'https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz' },
+352 silly install resolved     maintainers: [ [Object] ],
+352 silly install resolved     _npmOperationalInternal:
+352 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+352 silly install resolved        tmp: 'tmp/sorted-object-2.0.0.tgz_1457910693572_0.6718082851730287' },
+352 silly install resolved     directories: {},
+352 silly install resolved     _resolved: 'https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.0.tgz' },
+352 silly install resolved   { name: 'mkdirp',
+352 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+352 silly install resolved     version: '0.5.1',
+352 silly install resolved     author:
+352 silly install resolved      { name: 'James Halliday',
+352 silly install resolved        email: 'mail@substack.net',
+352 silly install resolved        url: 'http://substack.net' },
+352 silly install resolved     main: 'index.js',
+352 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+352 silly install resolved     repository:
+352 silly install resolved      { type: 'git',
+352 silly install resolved        url: 'git+https://github.com/substack/node-mkdirp.git' },
+352 silly install resolved     scripts: { test: 'tap test/*.js' },
+352 silly install resolved     dependencies: { minimist: '0.0.8' },
+352 silly install resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
+352 silly install resolved     bin: { mkdirp: 'bin/cmd.js' },
+352 silly install resolved     license: 'MIT',
+352 silly install resolved     gitHead: 'd4eff0f06093aed4f387e88e9fc301cb76beedc7',
+352 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+352 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp#readme',
+352 silly install resolved     _id: 'mkdirp@0.5.1',
+352 silly install resolved     _shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+352 silly install resolved     _from: 'mkdirp@0.5.1',
+352 silly install resolved     _npmVersion: '2.9.0',
+352 silly install resolved     _nodeVersion: '2.0.0',
+352 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+352 silly install resolved     dist:
+352 silly install resolved      { shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+352 silly install resolved        tarball: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+352 silly install resolved     maintainers: [ [Object] ],
+352 silly install resolved     directories: {},
+352 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+352 silly install resolved   { name: 'commander',
+352 silly install resolved     version: '2.7.1',
+352 silly install resolved     description: 'the complete solution for node.js command-line programs',
+352 silly install resolved     keywords: [ 'command', 'option', 'parser' ],
+352 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+352 silly install resolved     license: 'MIT',
+352 silly install resolved     repository: { type: 'git', url: 'https://github.com/tj/commander.js.git' },
+352 silly install resolved     devDependencies: { should: '>= 0.0.1' },
+352 silly install resolved     scripts: { test: 'make test' },
+352 silly install resolved     main: 'index',
+352 silly install resolved     engines: { node: '>= 0.6.x' },
+352 silly install resolved     files: [ 'index.js' ],
+352 silly install resolved     dependencies: { 'graceful-readlink': '>= 1.0.0' },
+352 silly install resolved     gitHead: '103654f8f32c010ad1e62cefc9ab92d7c8d18c8e',
+352 silly install resolved     bugs: { url: 'https://github.com/tj/commander.js/issues' },
+352 silly install resolved     homepage: 'https://github.com/tj/commander.js',
+352 silly install resolved     _id: 'commander@2.7.1',
+352 silly install resolved     _shasum: '5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a',
+352 silly install resolved     _from: 'commander@2.7.1',
+352 silly install resolved     _npmVersion: '2.1.17',
+352 silly install resolved     _nodeVersion: '0.11.14',
+352 silly install resolved     _npmUser: { name: 'zhiyelee', email: 'zhiyelee@gmail.com' },
+352 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+352 silly install resolved     dist:
+352 silly install resolved      { shasum: '5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a',
+352 silly install resolved        tarball: 'https://registry.npmjs.org/commander/-/commander-2.7.1.tgz' },
+352 silly install resolved     directories: {},
+352 silly install resolved     _resolved: 'https://registry.npmjs.org/commander/-/commander-2.7.1.tgz' } ]
+353 info install sorted-object@2.0.0 into /home/ubuntu/workspace/node_modules/express-generator
+354 info install mkdirp@0.5.1 into /home/ubuntu/workspace/node_modules/express-generator
+355 info install commander@2.7.1 into /home/ubuntu/workspace/node_modules/express-generator
+356 info installOne sorted-object@2.0.0
+357 verbose installOne of sorted-object to /home/ubuntu/workspace/node_modules/express-generator not in flight; installing
+358 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+359 info installOne mkdirp@0.5.1
+360 verbose installOne of mkdirp to /home/ubuntu/workspace/node_modules/express-generator not in flight; installing
+361 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+362 info installOne commander@2.7.1
+363 verbose installOne of commander to /home/ubuntu/workspace/node_modules/express-generator not in flight; installing
+364 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+365 verbose lock using /home/ubuntu/.npm/_locks/sorted-object-5132b7603d60dd48.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+366 verbose lock using /home/ubuntu/.npm/_locks/mkdirp-ffdb40cd97a8547a.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+367 verbose lock using /home/ubuntu/.npm/_locks/commander-348bc883f2c32035.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+368 silly install write writing sorted-object 2.0.0 to /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+369 silly install write writing mkdirp 0.5.1 to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+370 silly install write writing commander 2.7.1 to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+371 verbose unbuild node_modules/express-generator/node_modules/sorted-object
+372 verbose unbuild node_modules/express-generator/node_modules/commander
+373 verbose unbuild node_modules/express-generator/node_modules/mkdirp
+374 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object is being purged from base /home/ubuntu/workspace
+375 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+376 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander is being purged from base /home/ubuntu/workspace
+377 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+378 verbose tar unpack /home/ubuntu/.npm/sorted-object/2.0.0/package.tgz
+379 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+380 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object is being purged
+381 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+382 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp is being purged from base /home/ubuntu/workspace
+383 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+384 verbose tar unpack /home/ubuntu/.npm/commander/2.7.1/package.tgz
+385 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+386 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander is being purged
+387 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+388 silly gunzTarPerm modes [ '755', '644' ]
+389 verbose tar unpack /home/ubuntu/.npm/mkdirp/0.5.1/package.tgz
+390 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+391 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp is being purged
+392 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+393 silly gunzTarPerm modes [ '755', '644' ]
+394 silly gunzTarPerm modes [ '755', '644' ]
+395 silly gunzTarPerm extractEntry package.json
+396 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+397 silly gunzTarPerm extractEntry package.json
+398 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+399 silly gunzTarPerm extractEntry package.json
+400 silly gunzTarPerm extractEntry README.md
+401 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+402 silly gunzTarPerm extractEntry LICENSE.txt
+403 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+404 silly gunzTarPerm extractEntry LICENSE
+405 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+406 silly gunzTarPerm extractEntry index.js
+407 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+408 silly gunzTarPerm extractEntry LICENSE
+409 silly gunzTarPerm extractEntry index.js
+410 silly gunzTarPerm extractEntry lib/sorted-object.js
+411 silly gunzTarPerm modified mode [ 'lib/sorted-object.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry History.md
+413 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+414 silly gunzTarPerm extractEntry .travis.yml
+415 silly gunzTarPerm extractEntry bin/cmd.js
+416 silly gunzTarPerm extractEntry Readme.md
+417 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+418 silly gunzTarPerm extractEntry bin/usage.txt
+419 silly gunzTarPerm extractEntry examples/pow.js
+420 silly gunzTarPerm extractEntry readme.markdown
+421 silly gunzTarPerm extractEntry test/chmod.js
+422 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+423 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object/package.json
+424 silly gunzTarPerm extractEntry test/perm.js
+425 silly gunzTarPerm extractEntry test/perm_sync.js
+426 info preinstall sorted-object@2.0.0
+427 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object/package.json
+428 silly gunzTarPerm extractEntry test/opts_fs.js
+429 silly gunzTarPerm extractEntry test/rel.js
+430 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/package.json
+431 info preinstall commander@2.7.1
+432 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object/package.json
+433 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/package.json
+434 silly gunzTarPerm extractEntry test/return.js
+435 silly gunzTarPerm extractEntry test/return_sync.js
+436 silly install resolved []
+437 verbose about to build /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+438 info build /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+439 verbose write writing to /home/ubuntu/workspace/node_modules/oracledb/package.json
+440 silly prepareForInstallMany adding graceful-readlink@>= 1.0.0 from commander dependencies
+441 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/package.json
+442 silly gunzTarPerm extractEntry test/root.js
+443 silly gunzTarPerm extractEntry test/sync.js
+444 info preinstall oracledb@1.10.0
+445 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/oracledb/package.json
+446 info linkStuff sorted-object@2.0.0
+447 silly linkStuff sorted-object@2.0.0 has /home/ubuntu/workspace/node_modules/express-generator/node_modules as its parent node_modules
+448 silly prepareForInstallMany adding nan@~2.3.0 from oracledb dependencies
+449 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/oracledb/package.json
+450 silly gunzTarPerm extractEntry test/mkdirp.js
+451 silly gunzTarPerm extractEntry test/umask.js
+452 silly cache add args [ 'graceful-readlink@>= 1.0.0', null ]
+453 verbose cache add spec graceful-readlink@>= 1.0.0
+454 silly cache add parsed spec Result {
+454 silly cache add   raw: 'graceful-readlink@>= 1.0.0',
+454 silly cache add   scope: null,
+454 silly cache add   name: 'graceful-readlink',
+454 silly cache add   rawSpec: '>= 1.0.0',
+454 silly cache add   spec: '>=1.0.0',
+454 silly cache add   type: 'range' }
+455 silly addNamed graceful-readlink@>=1.0.0
+456 verbose addNamed ">=1.0.0" is a valid semver range for graceful-readlink
+457 silly addNameRange { name: 'graceful-readlink', range: '>=1.0.0', hasData: false }
+458 silly mapToRegistry name graceful-readlink
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry https://registry.npmjs.org/
+461 silly mapToRegistry data Result {
+461 silly mapToRegistry   raw: 'graceful-readlink',
+461 silly mapToRegistry   scope: null,
+461 silly mapToRegistry   name: 'graceful-readlink',
+461 silly mapToRegistry   rawSpec: '',
+461 silly mapToRegistry   spec: 'latest',
+461 silly mapToRegistry   type: 'tag' }
+462 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+463 verbose addNameRange registry:https://registry.npmjs.org/graceful-readlink not in flight; fetching
+464 verbose request uri https://registry.npmjs.org/graceful-readlink
+465 verbose request no auth needed
+466 info attempt registry request try #1 at 5:37:40 AM
+467 http request GET https://registry.npmjs.org/graceful-readlink
+468 verbose linkBins sorted-object@2.0.0
+469 verbose linkMans sorted-object@2.0.0
+470 verbose rebuildBundles sorted-object@2.0.0
+471 silly cache add args [ 'nan@~2.3.0', null ]
+472 verbose cache add spec nan@~2.3.0
+473 silly cache add parsed spec Result {
+473 silly cache add   raw: 'nan@~2.3.0',
+473 silly cache add   scope: null,
+473 silly cache add   name: 'nan',
+473 silly cache add   rawSpec: '~2.3.0',
+473 silly cache add   spec: '>=2.3.0 <2.4.0',
+473 silly cache add   type: 'range' }
+474 silly addNamed nan@>=2.3.0 <2.4.0
+475 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for nan
+476 silly addNameRange { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: false }
+477 silly mapToRegistry name nan
+478 silly mapToRegistry using default registry
+479 silly mapToRegistry registry https://registry.npmjs.org/
+480 silly mapToRegistry data Result {
+480 silly mapToRegistry   raw: 'nan',
+480 silly mapToRegistry   scope: null,
+480 silly mapToRegistry   name: 'nan',
+480 silly mapToRegistry   rawSpec: '',
+480 silly mapToRegistry   spec: 'latest',
+480 silly mapToRegistry   type: 'tag' }
+481 silly mapToRegistry uri https://registry.npmjs.org/nan
+482 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+483 info install sorted-object@2.0.0
+484 silly gunzTarPerm extractEntry test/clobber.js
+485 silly gunzTarPerm extractEntry test/umask_sync.js
+486 info postinstall sorted-object@2.0.0
+487 http 200 https://registry.npmjs.org/graceful-readlink
+488 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+488 verbose headers   etag: '"4Y89F8JDJP0YPHGBB0IMVMPJA"',
+488 verbose headers   'content-type': 'application/json',
+488 verbose headers   'content-encoding': 'gzip',
+488 verbose headers   'cache-control': 'max-age=300',
+488 verbose headers   'content-length': '1008',
+488 verbose headers   'accept-ranges': 'bytes',
+488 verbose headers   date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+488 verbose headers   via: '1.1 varnish',
+488 verbose headers   age: '76',
+488 verbose headers   connection: 'keep-alive',
+488 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+488 verbose headers   'x-cache': 'HIT',
+488 verbose headers   'x-cache-hits': '3',
+488 verbose headers   'x-timer': 'S1468301860.350960,VS0,VE0',
+488 verbose headers   vary: 'Accept-Encoding' }
+489 silly get cb [ 200,
+489 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+489 silly get     etag: '"4Y89F8JDJP0YPHGBB0IMVMPJA"',
+489 silly get     'content-type': 'application/json',
+489 silly get     'content-encoding': 'gzip',
+489 silly get     'cache-control': 'max-age=300',
+489 silly get     'content-length': '1008',
+489 silly get     'accept-ranges': 'bytes',
+489 silly get     date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+489 silly get     via: '1.1 varnish',
+489 silly get     age: '76',
+489 silly get     connection: 'keep-alive',
+489 silly get     'x-served-by': 'cache-hkg6825-HKG',
+489 silly get     'x-cache': 'HIT',
+489 silly get     'x-cache-hits': '3',
+489 silly get     'x-timer': 'S1468301860.350960,VS0,VE0',
+489 silly get     vary: 'Accept-Encoding' } ]
+490 verbose get saving graceful-readlink to /home/ubuntu/.npm/registry.npmjs.org/graceful-readlink/.cache.json
+491 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+492 verbose request uri https://registry.npmjs.org/nan
+493 verbose request no auth needed
+494 info attempt registry request try #1 at 5:37:40 AM
+495 verbose etag "2POVJEDCD6LOO0Y53S1HJ4UMJ"
+496 http request GET https://registry.npmjs.org/nan
+497 verbose unlock done using /home/ubuntu/.npm/_locks/sorted-object-5132b7603d60dd48.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/sorted-object
+498 silly gunzTarPerm extractEntry test/race.js
+499 silly addNameRange number 2 { name: 'graceful-readlink', range: '>=1.0.0', hasData: true }
+500 silly addNameRange versions [ 'graceful-readlink', [ '1.0.0', '1.0.1' ] ]
+501 silly addNamed graceful-readlink@1.0.1
+502 verbose addNamed "1.0.1" is a plain semver version for graceful-readlink
+503 silly mapToRegistry name graceful-readlink
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry https://registry.npmjs.org/
+506 silly mapToRegistry data Result {
+506 silly mapToRegistry   raw: 'graceful-readlink',
+506 silly mapToRegistry   scope: null,
+506 silly mapToRegistry   name: 'graceful-readlink',
+506 silly mapToRegistry   rawSpec: '',
+506 silly mapToRegistry   spec: 'latest',
+506 silly mapToRegistry   type: 'tag' }
+507 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+508 verbose addRemoteTarball https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz not in flight; adding
+509 verbose addRemoteTarball [ 'https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz',
+509 verbose addRemoteTarball   '4cafad76bc62f02fa039b2f94e9a3dd3a391a725' ]
+510 info retry fetch attempt 1 at 5:37:40 AM
+511 info attempt registry request try #1 at 5:37:40 AM
+512 http fetch GET https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz
+513 http 304 https://registry.npmjs.org/nan
+514 verbose headers { date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+514 verbose headers   via: '1.1 varnish',
+514 verbose headers   'cache-control': 'max-age=300',
+514 verbose headers   etag: '"2POVJEDCD6LOO0Y53S1HJ4UMJ"',
+514 verbose headers   age: '70',
+514 verbose headers   connection: 'keep-alive',
+514 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+514 verbose headers   'x-cache': 'HIT',
+514 verbose headers   'x-cache-hits': '3',
+514 verbose headers   'x-timer': 'S1468301860.376539,VS0,VE0',
+514 verbose headers   vary: 'Accept-Encoding' }
+515 silly get cb [ 304,
+515 silly get   { date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+515 silly get     via: '1.1 varnish',
+515 silly get     'cache-control': 'max-age=300',
+515 silly get     etag: '"2POVJEDCD6LOO0Y53S1HJ4UMJ"',
+515 silly get     age: '70',
+515 silly get     connection: 'keep-alive',
+515 silly get     'x-served-by': 'cache-hkg6820-HKG',
+515 silly get     'x-cache': 'HIT',
+515 silly get     'x-cache-hits': '3',
+515 silly get     'x-timer': 'S1468301860.376539,VS0,VE0',
+515 silly get     vary: 'Accept-Encoding' } ]
+516 verbose etag https://registry.npmjs.org/nan from cache
+517 verbose get saving nan to /home/ubuntu/.npm/registry.npmjs.org/nan/.cache.json
+518 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+519 silly addNameRange number 2 { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: true }
+520 silly addNameRange versions [ 'nan',
+520 silly addNameRange   [ '0.3.0-wip',
+520 silly addNameRange     '0.3.0-wip2',
+520 silly addNameRange     '0.3.0',
+520 silly addNameRange     '0.3.1',
+520 silly addNameRange     '0.3.2',
+520 silly addNameRange     '0.4.0',
+520 silly addNameRange     '0.4.1',
+520 silly addNameRange     '0.4.2',
+520 silly addNameRange     '0.4.3',
+520 silly addNameRange     '0.4.4',
+520 silly addNameRange     '0.5.0',
+520 silly addNameRange     '0.5.1',
+520 silly addNameRange     '0.5.2',
+520 silly addNameRange     '0.6.0',
+520 silly addNameRange     '0.7.0',
+520 silly addNameRange     '0.7.1',
+520 silly addNameRange     '0.8.0',
+520 silly addNameRange     '1.0.0',
+520 silly addNameRange     '1.1.0',
+520 silly addNameRange     '1.1.1',
+520 silly addNameRange     '1.1.2',
+520 silly addNameRange     '1.2.0',
+520 silly addNameRange     '1.3.0',
+520 silly addNameRange     '1.4.0',
+520 silly addNameRange     '1.4.1',
+520 silly addNameRange     '1.5.0',
+520 silly addNameRange     '1.4.2',
+520 silly addNameRange     '1.4.3',
+520 silly addNameRange     '1.5.1',
+520 silly addNameRange     '1.5.2',
+520 silly addNameRange     '1.6.0',
+520 silly addNameRange     '1.5.3',
+520 silly addNameRange     '1.6.1',
+520 silly addNameRange     '1.6.2',
+520 silly addNameRange     '1.7.0',
+520 silly addNameRange     '1.8.0',
+520 silly addNameRange     '1.8.1',
+520 silly addNameRange     '1.8.2',
+520 silly addNameRange     '1.8.3',
+520 silly addNameRange     '1.8.4',
+520 silly addNameRange     '1.9.0',
+520 silly addNameRange     '2.0.0',
+520 silly addNameRange     '2.0.1',
+520 silly addNameRange     '2.0.2',
+520 silly addNameRange     '2.0.3',
+520 silly addNameRange     '2.0.4',
+520 silly addNameRange     '2.0.5',
+520 silly addNameRange     '2.0.6',
+520 silly addNameRange     '2.0.7',
+520 silly addNameRange     '2.0.8',
+520 silly addNameRange     '2.0.9',
+520 silly addNameRange     '2.1.0',
+520 silly addNameRange     '2.2.0',
+520 silly addNameRange     '2.2.1',
+520 silly addNameRange     '2.3.0',
+520 silly addNameRange     '2.3.1',
+520 silly addNameRange     '2.3.2',
+520 silly addNameRange     '2.3.3',
+520 silly addNameRange     '2.3.4',
+520 silly addNameRange     '2.3.5',
+520 silly addNameRange     '2.4.0' ] ]
+521 silly addNamed nan@2.3.5
+522 verbose addNamed "2.3.5" is a plain semver version for nan
+523 http fetch 200 https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz
+524 silly fetchAndShaCheck shasum 4cafad76bc62f02fa039b2f94e9a3dd3a391a725
+525 silly cache afterAdd nan@2.3.5
+526 verbose afterAdd /home/ubuntu/.npm/nan/2.3.5/package/package.json not in flight; writing
+527 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+528 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz not in flight; adding
+529 verbose addTmpTarball already have metadata; skipping unpack for graceful-readlink@1.0.1
+530 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+531 verbose afterAdd /home/ubuntu/.npm/nan/2.3.5/package/package.json written
+532 silly install resolved [ { name: 'nan',
+532 silly install resolved     version: '2.3.5',
+532 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility',
+532 silly install resolved     main: 'include_dirs.js',
+532 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+532 silly install resolved     scripts:
+532 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+532 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+532 silly install resolved        docs: 'doc/.build.sh' },
+532 silly install resolved     contributors:
+532 silly install resolved      [ [Object],
+532 silly install resolved        [Object],
+532 silly install resolved        [Object],
+532 silly install resolved        [Object],
+532 silly install resolved        [Object],
+532 silly install resolved        [Object],
+532 silly install resolved        [Object] ],
+532 silly install resolved     devDependencies:
+532 silly install resolved      { bindings: '~1.2.1',
+532 silly install resolved        commander: '^2.8.1',
+532 silly install resolved        glob: '^5.0.14',
+532 silly install resolved        'node-gyp': '~3.0.1',
+532 silly install resolved        tap: '~0.7.1',
+532 silly install resolved        xtend: '~4.0.0' },
+532 silly install resolved     license: 'MIT',
+532 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+532 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+532 silly install resolved     _id: 'nan@2.3.5',
+532 silly install resolved     _shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+532 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+532 silly install resolved     _from: 'nan@>=2.3.0 <2.4.0',
+532 silly install resolved     _npmVersion: '3.3.6',
+532 silly install resolved     _nodeVersion: '5.0.0',
+532 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+532 silly install resolved     dist:
+532 silly install resolved      { shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+532 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz' },
+532 silly install resolved     maintainers: [ [Object], [Object] ],
+532 silly install resolved     _npmOperationalInternal:
+532 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+532 silly install resolved        tmp: 'tmp/nan-2.3.5.tgz_1464707164994_0.4295874561648816' },
+532 silly install resolved     directories: {},
+532 silly install resolved     readme: 'ERROR: No README data found!' } ]
+533 info install nan@2.3.5 into /home/ubuntu/workspace/node_modules/oracledb
+534 info installOne nan@2.3.5
+535 verbose installOne of nan to /home/ubuntu/workspace/node_modules/oracledb not in flight; installing
+536 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+537 verbose lock using /home/ubuntu/.npm/_locks/nan-2287dac1ff8e8f4b.lock for /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+538 silly install write writing nan 2.3.5 to /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+539 verbose unbuild node_modules/oracledb/node_modules/nan
+540 silly gentlyRm /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan is being purged from base /home/ubuntu/workspace
+541 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+542 verbose tar unpack /home/ubuntu/.npm/nan/2.3.5/package.tgz
+543 verbose tar unpacking to /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+544 silly gentlyRm /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan is being purged
+545 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+546 silly gunzTarPerm modes [ '755', '644' ]
+547 silly cache afterAdd graceful-readlink@1.0.1
+548 verbose afterAdd /home/ubuntu/.npm/graceful-readlink/1.0.1/package/package.json not in flight; writing
+549 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+550 silly gunzTarPerm extractEntry package.json
+551 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+552 verbose afterAdd /home/ubuntu/.npm/graceful-readlink/1.0.1/package/package.json written
+553 silly install resolved [ { name: 'graceful-readlink',
+553 silly install resolved     version: '1.0.1',
+553 silly install resolved     description: 'graceful fs.readlink',
+553 silly install resolved     main: 'index.js',
+553 silly install resolved     repository:
+553 silly install resolved      { type: 'git',
+553 silly install resolved        url: 'git://github.com/zhiyelee/graceful-readlink.git' },
+553 silly install resolved     homepage: 'https://github.com/zhiyelee/graceful-readlink',
+553 silly install resolved     bugs: { url: 'https://github.com/zhiyelee/graceful-readlink/issues' },
+553 silly install resolved     keywords: [ 'fs.readlink', 'readlink' ],
+553 silly install resolved     author: { name: 'zhiyelee' },
+553 silly install resolved     license: 'MIT',
+553 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+553 silly install resolved     gitHead: 'f6655275bebef706fb63fd01b5f062a7052419a5',
+553 silly install resolved     _id: 'graceful-readlink@1.0.1',
+553 silly install resolved     _shasum: '4cafad76bc62f02fa039b2f94e9a3dd3a391a725',
+553 silly install resolved     _from: 'graceful-readlink@>=1.0.0',
+553 silly install resolved     _npmVersion: '2.1.17',
+553 silly install resolved     _nodeVersion: '0.11.14',
+553 silly install resolved     _npmUser: { name: 'zhiyelee', email: 'zhiyelee@gmail.com' },
+553 silly install resolved     maintainers: [ [Object] ],
+553 silly install resolved     dist:
+553 silly install resolved      { shasum: '4cafad76bc62f02fa039b2f94e9a3dd3a391a725',
+553 silly install resolved        tarball: 'https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz' },
+553 silly install resolved     directories: {},
+553 silly install resolved     _resolved: 'https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz' } ]
+554 info install graceful-readlink@1.0.1 into /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+555 info installOne graceful-readlink@1.0.1
+556 verbose installOne of graceful-readlink to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander not in flight; installing
+557 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+560 silly gunzTarPerm extractEntry include_dirs.js
+561 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+562 verbose lock using /home/ubuntu/.npm/_locks/graceful-readlink-9fd85c13e080235c.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+563 silly install write writing graceful-readlink 1.0.1 to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+564 verbose unbuild node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+565 silly gunzTarPerm extractEntry nan_converters.h
+566 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+567 silly gunzTarPerm extractEntry LICENSE.md
+568 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+569 silly gunzTarPerm extractEntry doc/node_misc.md
+570 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+571 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink is being purged from base /home/ubuntu/workspace
+572 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+573 silly gunzTarPerm extractEntry doc/asyncworker.md
+574 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+575 verbose tar unpack /home/ubuntu/.npm/graceful-readlink/1.0.1/package.tgz
+576 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+577 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink is being purged
+578 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+579 silly gunzTarPerm modes [ '755', '644' ]
+580 silly gunzTarPerm extractEntry package.json
+581 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+582 silly gunzTarPerm extractEntry doc/callback.md
+583 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+584 silly gunzTarPerm extractEntry doc/converters.md
+585 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+586 silly gunzTarPerm extractEntry .npmignore
+587 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+588 silly gunzTarPerm extractEntry README.md
+589 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+590 silly gunzTarPerm extractEntry doc/errors.md
+591 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+592 silly gunzTarPerm extractEntry doc/maybe_types.md
+593 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+594 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/package.json
+595 silly gunzTarPerm extractEntry LICENSE
+596 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+597 silly gunzTarPerm extractEntry index.js
+598 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+599 info preinstall mkdirp@0.5.1
+600 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/package.json
+601 silly gunzTarPerm extractEntry doc/methods.md
+602 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+603 silly gunzTarPerm extractEntry doc/new.md
+604 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+605 silly gunzTarPerm extractEntry .travis.yml
+606 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+607 silly gunzTarPerm extractEntry doc/buffers.md
+608 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+609 silly gunzTarPerm extractEntry doc/object_wrappers.md
+610 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+611 silly prepareForInstallMany adding minimist@0.0.8 from mkdirp dependencies
+612 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/package.json
+613 silly gunzTarPerm extractEntry doc/persistent.md
+614 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+615 silly gunzTarPerm extractEntry doc/scopes.md
+616 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+617 silly cache add args [ 'minimist@0.0.8', null ]
+618 verbose cache add spec minimist@0.0.8
+619 silly cache add parsed spec Result {
+619 silly cache add   raw: 'minimist@0.0.8',
+619 silly cache add   scope: null,
+619 silly cache add   name: 'minimist',
+619 silly cache add   rawSpec: '0.0.8',
+619 silly cache add   spec: '0.0.8',
+619 silly cache add   type: 'version' }
+620 silly addNamed minimist@0.0.8
+621 verbose addNamed "0.0.8" is a plain semver version for minimist
+622 silly mapToRegistry name minimist
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry data Result {
+625 silly mapToRegistry   raw: 'minimist',
+625 silly mapToRegistry   scope: null,
+625 silly mapToRegistry   name: 'minimist',
+625 silly mapToRegistry   rawSpec: '',
+625 silly mapToRegistry   spec: 'latest',
+625 silly mapToRegistry   type: 'tag' }
+626 silly mapToRegistry uri https://registry.npmjs.org/minimist
+627 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+628 verbose request uri https://registry.npmjs.org/minimist
+629 verbose request no auth needed
+630 info attempt registry request try #1 at 5:37:40 AM
+631 http request GET https://registry.npmjs.org/minimist
+632 silly gunzTarPerm extractEntry doc/script.md
+633 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+634 silly gunzTarPerm extractEntry doc/string_bytes.md
+635 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+636 silly gunzTarPerm extractEntry doc/v8_internals.md
+637 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+638 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink/package.json
+639 info preinstall graceful-readlink@1.0.1
+640 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink/package.json
+641 silly gunzTarPerm extractEntry doc/v8_misc.md
+642 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+643 silly gunzTarPerm extractEntry nan.h
+644 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+645 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink/package.json
+646 silly gunzTarPerm extractEntry nan_callbacks.h
+647 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+648 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+649 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+650 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+651 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+652 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+653 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+654 http 200 https://registry.npmjs.org/minimist
+655 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+655 verbose headers   etag: '"E2OCO28TYACRGKHLO5AAYTH0V"',
+655 verbose headers   'content-type': 'application/json',
+655 verbose headers   'content-encoding': 'gzip',
+655 verbose headers   'cache-control': 'max-age=300',
+655 verbose headers   'content-length': '5583',
+655 verbose headers   'accept-ranges': 'bytes',
+655 verbose headers   date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+655 verbose headers   via: '1.1 varnish',
+655 verbose headers   age: '59',
+655 verbose headers   connection: 'keep-alive',
+655 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+655 verbose headers   'x-cache': 'HIT',
+655 verbose headers   'x-cache-hits': '6',
+655 verbose headers   'x-timer': 'S1468301860.487140,VS0,VE0',
+655 verbose headers   vary: 'Accept-Encoding' }
+656 silly get cb [ 200,
+656 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+656 silly get     etag: '"E2OCO28TYACRGKHLO5AAYTH0V"',
+656 silly get     'content-type': 'application/json',
+656 silly get     'content-encoding': 'gzip',
+656 silly get     'cache-control': 'max-age=300',
+656 silly get     'content-length': '5583',
+656 silly get     'accept-ranges': 'bytes',
+656 silly get     date: 'Tue, 12 Jul 2016 05:37:40 GMT',
+656 silly get     via: '1.1 varnish',
+656 silly get     age: '59',
+656 silly get     connection: 'keep-alive',
+656 silly get     'x-served-by': 'cache-hkg6825-HKG',
+656 silly get     'x-cache': 'HIT',
+656 silly get     'x-cache-hits': '6',
+656 silly get     'x-timer': 'S1468301860.487140,VS0,VE0',
+656 silly get     vary: 'Accept-Encoding' } ]
+657 verbose get saving minimist to /home/ubuntu/.npm/registry.npmjs.org/minimist/.cache.json
+658 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+659 silly install resolved []
+660 verbose about to build /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+661 info build /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+662 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+663 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+664 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+665 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+666 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+667 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+668 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+669 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+670 silly mapToRegistry name minimist
+671 silly mapToRegistry using default registry
+672 silly mapToRegistry registry https://registry.npmjs.org/
+673 silly mapToRegistry data Result {
+673 silly mapToRegistry   raw: 'minimist',
+673 silly mapToRegistry   scope: null,
+673 silly mapToRegistry   name: 'minimist',
+673 silly mapToRegistry   rawSpec: '',
+673 silly mapToRegistry   spec: 'latest',
+673 silly mapToRegistry   type: 'tag' }
+674 silly mapToRegistry uri https://registry.npmjs.org/minimist
+675 verbose addRemoteTarball https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz not in flight; adding
+676 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+676 verbose addRemoteTarball   '857fcabfc3397d2625b8228262e86aa7a011b05d' ]
+677 info retry fetch attempt 1 at 5:37:40 AM
+678 info attempt registry request try #1 at 5:37:40 AM
+679 http fetch GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+680 info linkStuff graceful-readlink@1.0.1
+681 silly linkStuff graceful-readlink@1.0.1 has /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules as its parent node_modules
+682 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+683 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+684 silly gunzTarPerm extractEntry nan_new.h
+685 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+686 verbose linkBins graceful-readlink@1.0.1
+687 verbose linkMans graceful-readlink@1.0.1
+688 verbose rebuildBundles graceful-readlink@1.0.1
+689 info install graceful-readlink@1.0.1
+690 info postinstall graceful-readlink@1.0.1
+691 silly gunzTarPerm extractEntry nan_object_wrap.h
+692 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+693 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+694 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+695 verbose unlock done using /home/ubuntu/.npm/_locks/graceful-readlink-9fd85c13e080235c.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander/node_modules/graceful-readlink
+696 verbose about to build /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+697 info build /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+698 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+699 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+700 silly gunzTarPerm extractEntry nan_string_bytes.h
+701 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+702 http fetch 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+703 info linkStuff commander@2.7.1
+704 silly linkStuff commander@2.7.1 has /home/ubuntu/workspace/node_modules/express-generator/node_modules as its parent node_modules
+705 silly fetchAndShaCheck shasum 857fcabfc3397d2625b8228262e86aa7a011b05d
+706 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+707 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+708 silly gunzTarPerm extractEntry nan_weak.h
+709 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+710 verbose addTmpTarball /tmp/npm-2683-db9e11e5/registry.npmjs.org/minimist/-/minimist-0.0.8.tgz not in flight; adding
+711 verbose addTmpTarball already have metadata; skipping unpack for minimist@0.0.8
+712 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+713 verbose linkBins commander@2.7.1
+714 verbose linkMans commander@2.7.1
+715 verbose rebuildBundles commander@2.7.1
+716 verbose rebuildBundles [ 'graceful-readlink' ]
+717 info install commander@2.7.1
+718 silly gunzTarPerm extractEntry CHANGELOG.md
+719 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+720 silly gunzTarPerm extractEntry tools/package.json
+721 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+722 info postinstall commander@2.7.1
+723 verbose unlock done using /home/ubuntu/.npm/_locks/commander-348bc883f2c32035.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/commander
+724 silly gunzTarPerm extractEntry tools/README.md
+725 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+726 silly gunzTarPerm extractEntry tools/1to2.js
+727 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+728 silly cache afterAdd minimist@0.0.8
+729 verbose afterAdd /home/ubuntu/.npm/minimist/0.0.8/package/package.json not in flight; writing
+730 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+731 verbose afterAdd /home/ubuntu/.npm/minimist/0.0.8/package/package.json written
+732 silly install resolved [ { name: 'minimist',
+732 silly install resolved     version: '0.0.8',
+732 silly install resolved     description: 'parse argument options',
+732 silly install resolved     main: 'index.js',
+732 silly install resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+732 silly install resolved     scripts: { test: 'tap test/*.js' },
+732 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+732 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+732 silly install resolved     homepage: 'https://github.com/substack/minimist',
+732 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+732 silly install resolved     author:
+732 silly install resolved      { name: 'James Halliday',
+732 silly install resolved        email: 'mail@substack.net',
+732 silly install resolved        url: 'http://substack.net' },
+732 silly install resolved     license: 'MIT',
+732 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+732 silly install resolved     _id: 'minimist@0.0.8',
+732 silly install resolved     dist:
+732 silly install resolved      { shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+732 silly install resolved        tarball: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' },
+732 silly install resolved     _from: 'minimist@0.0.8',
+732 silly install resolved     _npmVersion: '1.4.3',
+732 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+732 silly install resolved     maintainers: [ [Object] ],
+732 silly install resolved     directories: {},
+732 silly install resolved     _shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+732 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' } ]
+733 info install minimist@0.0.8 into /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+734 info installOne minimist@0.0.8
+735 verbose installOne of minimist to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp not in flight; installing
+736 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+737 verbose lock using /home/ubuntu/.npm/_locks/minimist-c98d9b4caadc4303.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+738 silly install write writing minimist 0.0.8 to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+739 verbose unbuild node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+740 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist is being purged from base /home/ubuntu/workspace
+741 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+742 verbose tar unpack /home/ubuntu/.npm/minimist/0.0.8/package.tgz
+743 verbose tar unpacking to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+744 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist is being purged
+745 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+746 silly gunzTarPerm modes [ '755', '644' ]
+747 silly gunzTarPerm extractEntry package.json
+748 silly gunzTarPerm extractEntry LICENSE
+749 silly gunzTarPerm extractEntry index.js
+750 silly gunzTarPerm extractEntry .travis.yml
+751 silly gunzTarPerm extractEntry example/parse.js
+752 silly gunzTarPerm extractEntry readme.markdown
+753 silly gunzTarPerm extractEntry test/dash.js
+754 silly gunzTarPerm extractEntry test/default_bool.js
+755 silly gunzTarPerm extractEntry test/dotted.js
+756 silly gunzTarPerm extractEntry test/long.js
+757 silly gunzTarPerm extractEntry test/parse.js
+758 silly gunzTarPerm extractEntry test/parse_modified.js
+759 silly gunzTarPerm extractEntry test/short.js
+760 silly gunzTarPerm extractEntry test/whitespace.js
+761 verbose write writing to /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist/package.json
+762 info preinstall minimist@0.0.8
+763 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist/package.json
+764 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist/package.json
+765 silly install resolved []
+766 verbose about to build /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+767 info build /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+768 info linkStuff minimist@0.0.8
+769 silly linkStuff minimist@0.0.8 has /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules as its parent node_modules
+770 verbose linkBins minimist@0.0.8
+771 verbose linkMans minimist@0.0.8
+772 verbose rebuildBundles minimist@0.0.8
+773 info install minimist@0.0.8
+774 info postinstall minimist@0.0.8
+775 verbose unlock done using /home/ubuntu/.npm/_locks/minimist-c98d9b4caadc4303.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp/node_modules/minimist
+776 verbose about to build /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+777 info build /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+778 info linkStuff mkdirp@0.5.1
+779 silly linkStuff mkdirp@0.5.1 has /home/ubuntu/workspace/node_modules/express-generator/node_modules as its parent node_modules
+780 verbose linkBins mkdirp@0.5.1
+781 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+781 verbose link bins   '/home/ubuntu/workspace/node_modules/express-generator/node_modules/.bin',
+781 verbose link bins   false ]
+782 verbose linkMans mkdirp@0.5.1
+783 verbose rebuildBundles mkdirp@0.5.1
+784 verbose rebuildBundles [ 'minimist' ]
+785 silly gentlyRm /home/ubuntu/workspace/node_modules/express-generator/node_modules/.bin/mkdirp is being purged
+786 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/express-generator/node_modules/.bin/mkdirp
+787 info install mkdirp@0.5.1
+788 info postinstall mkdirp@0.5.1
+789 verbose write writing to /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan/package.json
+790 verbose unlock done using /home/ubuntu/.npm/_locks/mkdirp-ffdb40cd97a8547a.lock for /home/ubuntu/workspace/node_modules/express-generator/node_modules/mkdirp
+791 verbose about to build /home/ubuntu/workspace/node_modules/express-generator
+792 info build /home/ubuntu/workspace/node_modules/express-generator
+793 info preinstall nan@2.3.5
+794 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan/package.json
+795 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan/package.json
+796 info linkStuff express-generator@4.13.4
+797 silly linkStuff express-generator@4.13.4 has /home/ubuntu/workspace/node_modules as its parent node_modules
+798 silly install resolved []
+799 verbose about to build /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+800 info build /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+801 verbose linkBins express-generator@4.13.4
+802 verbose link bins [ { express: './bin/express' },
+802 verbose link bins   '/home/ubuntu/workspace/node_modules/.bin',
+802 verbose link bins   false ]
+803 verbose linkMans express-generator@4.13.4
+804 verbose rebuildBundles express-generator@4.13.4
+805 info linkStuff nan@2.3.5
+806 silly linkStuff nan@2.3.5 has /home/ubuntu/workspace/node_modules/oracledb/node_modules as its parent node_modules
+807 verbose rebuildBundles [ '.bin', 'commander', 'mkdirp', 'sorted-object' ]
+808 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/express is being purged
+809 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/.bin/express
+810 info install express-generator@4.13.4
+811 info postinstall express-generator@4.13.4
+812 verbose linkBins nan@2.3.5
+813 verbose linkMans nan@2.3.5
+814 verbose rebuildBundles nan@2.3.5
+815 info install nan@2.3.5
+816 verbose unlock done using /home/ubuntu/.npm/_locks/express-generator-f069907810ebfb97.lock for /home/ubuntu/workspace/node_modules/express-generator
+817 info postinstall nan@2.3.5
+818 verbose unlock done using /home/ubuntu/.npm/_locks/nan-2287dac1ff8e8f4b.lock for /home/ubuntu/workspace/node_modules/oracledb/node_modules/nan
+819 verbose about to build /home/ubuntu/workspace/node_modules/oracledb
+820 info build /home/ubuntu/workspace/node_modules/oracledb
+821 info linkStuff oracledb@1.10.0
+822 silly linkStuff oracledb@1.10.0 has /home/ubuntu/workspace/node_modules as its parent node_modules
+823 verbose linkBins oracledb@1.10.0
+824 verbose linkMans oracledb@1.10.0
+825 verbose rebuildBundles oracledb@1.10.0
+826 verbose rebuildBundles [ 'nan' ]
+827 info install oracledb@1.10.0
+828 verbose unsafe-perm in lifecycle true
+829 info oracledb@1.10.0 Failed to exec install script
+830 verbose unlock done using /home/ubuntu/.npm/_locks/oracledb-17bdb8b23a6f6f51.lock for /home/ubuntu/workspace/node_modules/oracledb
+831 verbose stack Error: oracledb@1.10.0 install: `node-gyp rebuild`
+831 verbose stack Exit status 1
+831 verbose stack     at EventEmitter.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+831 verbose stack     at emitTwo (events.js:87:13)
+831 verbose stack     at EventEmitter.emit (events.js:172:7)
+831 verbose stack     at ChildProcess.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+831 verbose stack     at emitTwo (events.js:87:13)
+831 verbose stack     at ChildProcess.emit (events.js:172:7)
+831 verbose stack     at maybeClose (internal/child_process.js:827:16)
+831 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+832 verbose pkgid oracledb@1.10.0
+833 verbose cwd /home/ubuntu/workspace
+834 error Linux 4.2.0-c9
+835 error argv "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node" "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm" "install" "-d"
+836 error node v4.4.5
+837 error npm  v2.15.5
+838 error code ELIFECYCLE
+839 error oracledb@1.10.0 install: `node-gyp rebuild`
+839 error Exit status 1
+840 error Failed at the oracledb@1.10.0 install script 'node-gyp rebuild'.
+840 error This is most likely a problem with the oracledb package,
+840 error not with npm itself.
+840 error Tell the author that this fails on your system:
+840 error     node-gyp rebuild
+840 error You can get information on how to open an issue for this project with:
+840 error     npm bugs oracledb
+840 error Or if that isn't available, you can get their info via:
+840 error
+840 error     npm owner ls oracledb
+840 error There is likely additional logging output above.
+841 verbose exit [ 1, true ]
+842 verbose unbuild node_modules/oracledb
+843 info preuninstall oracledb@1.10.0
+844 info uninstall oracledb@1.10.0
+845 verbose unbuild rmStuff oracledb@1.10.0 from /home/ubuntu/workspace/node_modules
+846 info postuninstall oracledb@1.10.0
+847 silly gentlyRm /home/ubuntu/workspace/node_modules/oracledb is being purged from base /home/ubuntu/workspace
+848 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/oracledb
+849 silly vacuum-fs purging /home/ubuntu/workspace/node_modules/oracledb
+850 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/node_modules
