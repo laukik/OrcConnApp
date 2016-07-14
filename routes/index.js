@@ -20,7 +20,8 @@ router.get('/', function(req, res, next) {
     connection.execute(QUERIES.orderstatus, function (err, result) {
       if( err ) throw err;
       res.render('index', { queryResult: result });
-    })
+    });
+    
     
   });  
 });
